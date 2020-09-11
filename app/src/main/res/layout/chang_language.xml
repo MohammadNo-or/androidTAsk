@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".ui.changLanguages.changLanguageApp">
+
+    <Button
+        android:id="@+id/ar1"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="0dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="131dp"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/Arabic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edaLang" />
+
+    <Button
+        android:id="@+id/en1"
+
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="52dp"
+        android:layout_marginStart="93dp"
+
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="324dp"
+        android:background="@color/design_default_color_error"
+        android:text="@string/englis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/edaLang"
+
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/edLang"
+        android:textColor="#E64A19"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

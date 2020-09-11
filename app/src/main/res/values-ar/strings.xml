@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مطعمجي</string>
+    <string name="Add_Meal" >اضافة وجبة</string>
+    <string name="menu_ChangLanguage" >تغيير اللغة</string>
+    <string name="menu_LogOut" >خروج</string>
+    <string name="menu_Updateinf" >تحديث المعلومات</string>
+    <string name="menu_ShowMeal" >عرض الوجبات</string>
+    <string name="action_settings" >الاعدادات</string>
+    <string name="text_4">الوصف</string>
+    <string name="text_3">تفاصيل الوجبة</string>
+    <string name="menu_home">الصفحة الرئيسية</string>
+    <string name="text_1">اسم الوجبة</string>
+    <string name="text_2">سعر الوجبة</string>
+    <string name="text_Sp">الفئات</string>
+    <string name="menu_add_Category">اضافة صنف</string>
+
+
+
+    <string name="title">الخروج من التطبيق</string>
+    <string name="msg">هل تريد الخروج من التطبيق نهائيا؟</string>
+    <string name="ok">نعم</string>
+    <string name="No">لا</string>
+    <string name="cancel">الغاء</string>
+
+
+    <string name="msgLogOut">هل تريد تسجيل الخروج ؟</string>
+    <string name="titleLogOut">الخروج من الحساب</string>
+    <string name="btnOut">تسجيل الخروج</string>
+
+    <string name="text_comunicate">اذا كان لديك سؤال,استفسار ,اقتراح,أو شكوى ,تواصل معنا على : </string>
+
+
+
+    <string name="hello_blank_fragment">مرحبا شاشة فارغة</string>
+    <string name="userName">ادخل اسم المستخدم</string>
+    <string name="userPassword">ادخل كلمة المرور للمستخدم</string>
+    <string name="userUpDate">تحديث الحساب</string>
+    <string name="detail">تفاصيل الوجبة</string>
+    <string name="enter">دخول</string>
+    <string name="sgnUp">حساب جديد</string>
+    <string name="rememberChec">تذكرني</string>
+    <string name="enterName">ادخل اسم المستخدم</string>
+    <string name="enterPass">ادخل كلمة المرور</string>
+    <string name="Arabic">العربية</string>
+    <string name="englis">الأنكليزية</string>
+    <string name="edLang">اختر اللغة المفضلة؟</string>
+
+
+    <string name="chNameFound">لا يوجد اسم</string>
+    <string name="chFound">لا يوجد كلمة مرور</string>
+    <string name="tostAddMail">تمت اضافة الوجبة بنجاح</string>
+    <string name="User_Name">أسم المستخدم</string>
+    <string name="User_email">البريد الألكتروني</string>
+    <string name="User_telephone">رقم التلفون</string>
+    <string name="User_Password">كلمة مرور المستخدم</string>
+    <string name="User_Country">المنطقة</string>
+    <string name="User_sex">Jender</string>
+    <string name="User_jender">الجنس</string>
+    <string name="User_Date">أدخل تاريخ الميلاد</string>
+    <string name="enter_Name_User_sign">أدخل أسم المستخدم</string>
+    <string name="enter_sign_password">أدخل كلمة المرور</string>
+    <string name="Enter_The_Telephone">أدخل رقم التلفون</string>
+    <string name="name_update_info">تحديث معلومات المستخدم</string>
+    <string name="all_user">جميع المستخدمين</string>
+    <string name="update_category">تحديث الصنف</string>
+    <string name="UPDATE_CATEGORY">تحديث الصنف المدخل</string>
+    <string name="enter_cat_new">أدخل صنف جديدة </string>
+    <string name="navigation_drawer_close" translatable="false">أغلق نافذة التطبيق</string>
+    <string name="navigation_drawer_open" translatable="false">أفتح نافذة التطبيق</string>
+
+    <string name="toat_anim_text">من فضلك قم بتعبئة الحقل</string>
+    <string name="loading_add_categor">انشاء صنف جديد</string>
+    <string name="loading_add_descr">من فضلك انتظر قليلا بينما يتم معالجة البيانات</string>
+    <string name="text_requierd">هذا الحقل مطلوب</string>
+    <string name="loading_signUp_acount">انشاء حساب جديد </string>
+
+    <string name="login">تسجيل الدخول</string>
+    <string name="Forget_Password">نسيت كلمة السر؟</string>
+    <string name="fragment_login_password_hint">أدخل كلمة السر</string>
+    <string name="text_cal">تلفون:0797427380</string>
+    <string name="text_email">البريد الألكتروني:moh.noorsyr@gmail.com</string>
+    <string name="text_suggestion">الأقتراح</string>
+    <string name="text_send">ارسال</string>
+    <string name="comunicate">اتصل بنا</string>
+
+
+</resources>

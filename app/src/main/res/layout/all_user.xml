@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.alluser.allUser">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linUserAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+
+                    android:id="@+id/filterSearchUser"
+                    android:layout_width="326dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:background="#ffffff"
+                    android:ems="8"
+                    android:imeOptions="actionSearch"
+                    android:inputType="textPersonName" />
+
+                <ImageButton
+
+                    android:id="@+id/imgUserSearch"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F5050"
+                    android:src="@android:drawable/ic_menu_search" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

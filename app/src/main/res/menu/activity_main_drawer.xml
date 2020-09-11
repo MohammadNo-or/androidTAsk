@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_SHR"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_home" />
+
+
+        <item
+            android:id="@+id/nav_A"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/Add_Meal" />
+        <item
+            android:id="@+id/nav_Sh"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_ShowMeal" />
+
+        <item
+            android:id="@+id/nav_all_user"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/all_user" />
+
+        <item
+            android:id="@+id/nav_update_ctegory"
+            android:icon="@drawable/ic_peson"
+            android:title="@string/update_category" />
+
+
+
+        <item
+            android:id="@+id/nav_LO"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_LogOut" />
+
+        <item
+            android:id="@+id/nav_Update"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_Updateinf" />
+
+        <item
+            android:id="@+id/nav_Language"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_ChangLanguage" />
+
+
+
+
+
+        <item
+            android:id="@+id/nav_addCard"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Add To Card" />
+
+        <item
+            android:id="@+id/nav_Toadd_category"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Add Category" />
+
+
+        <item
+            android:id="@+id/nav_update_info"
+            android:icon="@drawable/ic_peson"
+            android:title="@string/name_update_info" />
+
+        <item
+            android:id="@+id/nav_comunicate"
+
+            android:icon="@drawable/call_me"
+            android:title="@string/comunicate" />
+
+
+    </group>
+
+
+
+</menu>
+

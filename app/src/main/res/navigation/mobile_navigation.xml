@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="UPDATE USER"
+    app:startDestination="@+id/nav_SHR">
+
+    <fragment
+        android:id="@+id/nav_A"
+        android:name="com.example.projectfinal.ui.addmail.AddMailFragment"
+        android:label="@string/Add_Meal"
+        tools:layout="@layout/addmail">
+        <action
+            android:id="@+id/action_nav_A_to_nav_SHR"
+            app:destination="@id/nav_SHR" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Sh"
+        android:name="com.example.projectfinal.ui.showmealvertical.showCategoryVertical"
+        android:label="@string/menu_ShowMeal"
+        tools:layout="@layout/category_vertical">
+        <action
+            android:id="@+id/action_nav_Sh_to_nav_A"
+            app:destination="@id/nav_A" />
+        <action
+            android:id="@+id/action_nav_Sh_self"
+            app:destination="@id/nav_Sh" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_SHR"
+        android:name="com.example.projectfinal.ui.allmeal.allMaeals"
+        android:label="@string/menu_home"
+        tools:layout="@layout/show_rec" />
+    <fragment
+        android:id="@+id/nav_Update"
+        android:name="com.example.projectfinal.ui.userUpdate.updateUser"
+        android:label="@string/menu_Updateinf"
+        tools:layout="@layout/update_user">
+        <action
+            android:id="@+id/action_nav_Update_to_nav_Sh"
+            app:destination="@id/nav_Sh" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_LO"
+        android:name="com.example.projectfinal.ui.logOut.logOutUser"
+        android:label="Log Out"
+        tools:layout="@layout/log_out_user"></fragment>
+
+    <fragment
+        android:id="@+id/nav_Language"
+        android:name="com.example.projectfinal.ui.changLanguages.changLanguageApp"
+        android:label="changLanguageApp"
+        tools:layout="@layout/chang_language" />
+
+    <fragment
+        android:id="@+id/nav_Toadd_category"
+        android:name="com.example.projectfinal.ui.addtocategory.addCategoryToMeal"
+        android:label="Add Category"
+        tools:layout="@layout/add_category_meal" />
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.projectfinal.ui.ActivityProject.LoginActivity"
+        android:label="activity login"
+        tools:layout="@layout/login" />
+    <activity
+        android:id="@+id/signupActivity"
+        android:name="com.example.projectfinal.ui.ActivityProject.RegisterActivity"
+        android:label="activity signup"
+        tools:layout="@layout/signup" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.projectfinal.ui.ActivityProject.SplashActivity"
+        android:label="activity splash"
+        tools:layout="@layout/splash" />
+    <activity
+        android:id="@+id/nav_addCard"
+        android:name="com.example.projectfinal.ui.ActivityProject.addToCard"
+        android:label="activity add to card"
+        tools:layout="@layout/activity_add_to_card" />
+    <fragment
+        android:id="@+id/nav_update_info"
+        android:name="com.example.projectfinal.ui.informationuserinfo.updateInfoUser"
+        android:label="update Info User"
+        tools:layout="@layout/update_info" />
+    <fragment
+        android:id="@+id/nav_all_user"
+        android:name="com.example.projectfinal.ui.alluser.allUser"
+        android:label="All User"
+        tools:layout="@layout/all_user" />
+    <fragment
+        android:id="@+id/nav_update_ctegory"
+        android:name="com.example.projectfinal.ui.updatecategory.updateCategory"
+        android:label="update category"
+        tools:layout="@layout/update_category" />
+    <fragment
+        android:id="@+id/nav_comunicate"
+        android:name="com.example.projectfinal.ui.communicateapp.communicateuser"
+        android:label="Comunicate"
+        tools:layout="@layout/communicateuser" />
+
+
+</navigation>

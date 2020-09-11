@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ActivityProject.detilesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgDetailesMeal"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_shopping_cart_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <Button
+                android:id="@+id/txtNameDetailes"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_gravity="center"
+
+
+                android:background="@color/color_red"
+                android:gravity="center|center_vertical"
+                android:text="TextView"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtPriceDetailes"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/txtDescrDetailes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_dark_background"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/cardview_dark_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnSumDet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center_horizontal"
+                    android:onClick="countSum"
+                    android:text="+"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnCountDet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnMinDet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:onClick="countMin"
+                    android:text="-"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/addshoppingDetailes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_light"
+                    android:onClick="goShoppingCard"
+                    app:srcCompat="@drawable/ic_add_shopping_cart_black_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageView
+                    android:id="@+id/LoveDet"
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:onClick="swipLike"
+                    app:srcCompat="@drawable/likeon" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

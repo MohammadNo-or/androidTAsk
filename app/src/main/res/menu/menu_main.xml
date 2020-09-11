@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.haerul.mypets.MainActivity">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        android:title="Search"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="101"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|always"
+        android:theme="@android:style/Theme.Holo.Light"/>
+
+
+</menu>

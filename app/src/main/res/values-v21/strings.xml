@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edLang">Choose your preferred language?</string>
+    <string name="User_Name">User name</string>
+    <string name="User_email">User Email</string>
+    <string name="User_telephone">User Telephone</string>
+    <string name="User_Password">User Password</string>
+    <string name="User_Country">User Country</string>
+    <string name="User_sex">Jender</string>
+    <string name="User_jender">User Jender</string>
+    <string name="User_Date">Date Birthday</string>
+    <string name="enter_Name_User_sign">Enter Name The User</string>
+    <string name="enter_sign_password">Enter password The User</string>
+    <string name="Enter_The_Telephone">Enter The Telephone</string>
+    <string name="name_update_info">UPDATE INFO USER</string>
+    <string name="all_user">All User</string>
+    <string name="update_category">UPDate Category</string>
+    <string name="UPDATE_CATEGORY">UPDATE CATEGORY</string>
+    <string name="enter_cat_new">enter category New</string>
+
+
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+
+
+    <string name="toat_anim_text">Please write in the text</string>
+    <string name="loading_add_categor">Create Category</string>
+
+    <string name="loading_add_descr">Please wait, while we are checking the credentials.</string>
+    <string name="text_requierd">Required Field</string>
+    <string name="loading_signUp_acount">creat Acount new </string>
+    <string name="Login">LogIn</string>
+    <string name="login">Login</string>
+    <string name="Forget_Password">Forget Password?</string>
+    <string name="fragment_login_password_hint">enter the password</string>
+    <string name="text_comunicate">if you have  aquestion ,aquery,a suggestion, or a complain ,contact us on :</string>
+    <string name="text_cal">Mobile:079+7427380</string>
+    <string name="text_email">Email:moh.noorsyr@gmail.com</string>
+    <string name="text_suggestion">Suggestion :</string>
+    <string name="text_send">SUBMIT</string>
+    <string name="comunicate">Communicate</string>
+
+
+</resources>

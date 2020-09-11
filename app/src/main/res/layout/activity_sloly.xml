@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/layoutTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="5"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:paddingTop="4dp"
+        android:textColorHint="#3f3f3f">
+
+        <EditText
+            android:id="@+id/etpasss"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@mipmap/camera_colored"
+            android:drawablePadding="13dp"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColor="#3f3f3f"
+            android:textColorHint="#3f3f3f"
+            android:textSize="13sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imagepassword"
+        android:layout_width="291dp"
+        android:layout_height="162dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="77dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:src="@mipmap/camera_colored" />
+
+</RelativeLayout>
